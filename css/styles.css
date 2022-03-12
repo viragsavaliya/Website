@@ -1,0 +1,391 @@
+body {
+   margin: 0;
+   text-align: center;
+   overflow-x: hidden;
+   font-family: 'Poppins', sans-serif;
+   font-size: 1rem;
+   background-color: #FDFAF6;
+}
+
+h2 {
+   color: #66BFBF;
+   font-size: 2.7rem;
+   font-weight:500;
+   margin-bottom: 1em;
+   font-family: 'Noto Sans', sans-serif;
+}
+
+/* navbar */
+
+.navbar .navbar-brand {
+   font-weight: 600;
+   color: #68B0AB;
+}
+
+nav .navbar-nav li a{
+  color: #4bb09a !important;
+  }
+
+.nav-item {
+   padding: 0 0.8vw;
+}
+
+.nav-link {
+   font-weight: 400;
+}
+
+/* navbar */
+
+.bg {
+   overflow: hidden;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.hrdot {
+    border-top: 0.5rem dotted;
+    border-color: grey;
+    background-color: #FFFFFF;
+    width: 4.6rem;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    margin: 0 auto 0 auto;
+}
+
+.col-img {
+   width: 18vw;
+}
+
+.circleimage {
+   border-radius: 50%;
+   border: 0.521vw solid;
+   border-color: #68B0AB;
+}
+
+.container-fluid {
+   padding: 0 4.3vw;
+}
+
+.top-container {
+   margin: 0;
+   height: 46.45vw;
+   /*
+   background-color: #E4F9F5;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;*/
+}
+/*
+.bgheading {
+   position: relative;
+   top: 17%;
+}
+
+.bgname {
+   color: #66BFBF;
+   margin: 0;
+   font-size: 600%;
+   margin-bottom: 0;
+   font-family: 'Sacramento';
+}
+
+.cloud1 {
+   position: relative;
+   top: 12%;
+   left: 32%;
+}
+
+.cloud2{
+   position: relative;
+   top:40%;
+   right: 25%;
+   height: 8.5%;
+}
+
+.cloud3{
+   position: absolute;
+   top: 10%;
+   left: 15%;
+   height: 2vw;
+}
+
+.cloud4{
+   position: absolute;
+   top:62%;
+   left: 5%;
+}
+
+.cloud5{
+   position: absolute;
+   top:70%;
+   right: 20%;
+   height: 2vw;
+}
+
+.cloud6 {
+   position: absolute;
+   top: 37%;
+   right: 5%;
+   height: 4vw;
+}
+
+.wind1 {
+   position: absolute;
+   height:4vw;
+   width: 8vw;
+   top: 22%;
+   left: 22%;
+}
+
+.wind2 {
+   position: absolute;
+   height:4vw;
+   width: 8vw;
+   top: 55%;
+   right: 28%;
+}
+/*
+.wind3 {
+   position: absolute;
+   height:2.5vw;
+   width: 5vw;
+   bottom: 39%;
+   left: 13%;
+}
+
+.wind4 {
+   position: absolute;
+   height:3vw;
+   width: 6vw;
+   top: 25%;
+   right: 15%;
+}
+
+.windmill1 {
+   position: relative;
+   height: 4vw;
+   width: 2vw;
+   top: 87%;
+   right: 30.5%;
+}
+
+.windmill2 {
+   position: relative;
+   height: 4vw;
+   width: 2vw;
+   top: 84.9%;
+   right: 30.7%;
+}
+
+.windmill3 {
+   position: relative;
+   height: 4vw;
+   width: 2vw;
+   top: 83.7%;
+   left: 10.2%;
+}
+
+.windmill4 {
+   position: relative;
+   height: 4vw;
+   width: 2vw;
+   top: 87.8%;
+   left: 10%;
+}
+
+.windmill5 {
+   position: relative;
+   height: 4vw;
+   width: 2vw;
+   top: 82%;
+   right: 35.5%;
+}
+
+.mountain {
+   position: relative;
+   top: 28%;
+   height: 22vw;
+   width: 50vw;
+}
+*/
+.progbg {
+   position: absolute;
+   height:7vw;
+   width: 10vw;
+   bottom:8%;
+   right:5%;
+}
+
+.profilebg {
+   padding-top: 8%;
+}
+
+.profiletable {
+   width:100%;
+   margin-bottom:3em;
+}
+
+/*.profileheading {
+   color: #66BFBF;
+   font-size: 2.813vw;
+   font-weight: 100;
+   margin-bottom: 1em;
+}*/
+
+.profiletitle {
+   color: #727878;
+   margin-bottom: 1em;
+}
+
+.profilepicture {
+   position: relative;
+   height: 70%;
+   width: 70%;
+   border-radius: 50%;
+   border-color: #aad8d3;
+}
+
+.aboutmeheading {
+   font-size: 1.3rem;
+}
+
+.aboutmePara {
+   line-height: 1.5rem;
+   text-align: justify;
+   text-justify:inter-word;
+}
+
+.detailsheading {
+   padding-right: 100%;
+   font-size: 1.3rem;
+}
+
+.detialspara {
+   padding-right: 20%;
+   line-height: 2.1rem;
+}
+
+.skills {
+   padding-top: 6%;
+}
+
+.skill-row1 {
+   width: 50%;
+   margin: 4% auto 6.25% auto;
+}
+
+.skill-row2 {
+   width: 50%;
+   margin: 6.255% auto 6.25% auto;
+   padding-top: 2vw;
+}
+
+.designdevelopmentimage {
+   float: left;
+   margin-right: 5%;
+   width: 30%;
+}
+
+.skill-div1-heading {
+   font-size: 1.3rem;
+   color: #68B0AB;
+   text-align: left;
+}
+
+.skill-div1-para {
+   text-align: left;
+   text-align: justify;
+   text-justify:inter-word;
+   line-height: 2rem;
+}
+
+.skill-div2-heading {
+   font-size: 1.3rem;
+   color: #68B0AB;
+   text-align: left;
+}
+
+.skill-div2-para {
+   text-align: right;
+   text-align: justify;
+   text-justify:inter-word;
+   line-height: 2rem;
+}
+
+.hobiesimage {
+   float: right;
+   margin-left: 5%;
+   width: 25%;
+}
+
+.contact-me {
+   height: 30em;
+   margin-bottom: 20%;
+   padding-top: 10%;
+}
+
+.getintouchheading {
+   margin-bottom: 4%;
+}
+
+.getintouchtitle {
+   font-size: 1.3rem;
+   color: #68B0AB;
+}
+
+.btnlink {
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #FFF;
+}
+
+.btn-hover {
+   width: 12.5rem;
+   font-size: 1rem;
+   font-weight: 600;
+   color: #fff;
+   cursor: pointer;
+   margin: 1.5%;
+   height: 3.438rem;
+   text-align: center;
+   border: none;
+   background-size: 300% 100%;
+   border-radius: 3.125rem;
+   transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+}
+
+.btn-hover:hover {
+   background-position: 100% 0;
+   transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+}
+
+.btn-hover.color-10 {
+   background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
+   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.footer {
+   height: 10rem;
+   padding-top: 2.88rem;
+   background-color: #A7BBC7;
+}
+
+.icon {
+  width: 2.083vw;
+  height: 2.083vw;
+  background-size: 100% auto;
+  margin: 10px;
+}
+
+.footerpara {
+   margin-top: 1vw;
+   font-size: 0.7rem;
+   color: #FFF;
+}
