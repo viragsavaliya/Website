@@ -354,10 +354,10 @@ nav .navbar-nav li a{
 }
 
 .icon {
-  width: 2.083vw;
-  height: 2.083vw;
+  width: 2.5vw;
+  height: 2.5vw;
   background-size: 100% auto;
-  margin: 10px;
+  margin: 0 20px 10px;
 }
 
 .footerpara {
