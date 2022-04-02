@@ -73,6 +73,7 @@ nav .navbar-nav li a {
    background-image: url("../images/helloworld.png");
    width: 100%;
    min-width: 900px;
+   max-height: 40.55vw;
    min-height: 812px;
    object-fit: scale-down;
    background-attachment: fixed;
