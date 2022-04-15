@@ -268,11 +268,11 @@ nav .navbar-nav li a {
 .designdevelopmentimage {
    float: left;
    margin-right: 5%;
-   width: 30%;
+   width: 27%;
 }
 
 .skill-div1-heading {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    color: #68B0AB;
    text-align: left;
    margin-bottom: 1vw;
@@ -286,7 +286,7 @@ nav .navbar-nav li a {
 }
 
 .skill-div2-heading {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    color: #68B0AB;
    text-align: left;
    margin-bottom: 1vw;
@@ -302,7 +302,7 @@ nav .navbar-nav li a {
 .hobiesimage {
    float: right;
    margin-left: 5%;
-   width: 25%;
+   width: 22%;
 }
 
 .contact-me {
