@@ -408,9 +408,12 @@ nav .navbar-nav li a {
 }
 
 .resume-top {
-   background-color: #fff;
-   width: 78.7%;
-   margin-top: -2vw;
+  background-color: #fff;
+   /* width: 78.45vw; */
+   /* margin-top: 2.5vw; */
+   /* margin-left: 10.5vw; */
+   padding-top: 8vw;
+   padding-bottom: 4vw;
 }
 
 .resume-heading {
@@ -516,10 +519,9 @@ nav .navbar-nav li a {
 }
 
 .back-btn {
+   margin-left: -92vw;
+   margin-top: -10vw;
    width: 3vw;
-   position: relative;
-   top: 1vw;
-   right: 47.2vw;
    color: #aad8d3;
    padding: 0;
 }
