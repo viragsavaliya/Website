@@ -95,6 +95,10 @@ nav .navbar-nav li a {
 
 /* Profile */
 
+.parent-div {
+   margin-bottom: -9vw;
+}
+
 .profile {
    overflow: hidden;
    display: block;
