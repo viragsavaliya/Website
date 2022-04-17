@@ -82,6 +82,14 @@ nav .navbar-nav li a {
    background-size: cover;
 }
 
+@media screen and (max-width:768px) {
+   .bg {
+       background-image: url("../images/mobile-helloworld.jpg");
+       min-height: 769px;
+   }
+}
+
+
 .hrdot {
     border-top: 0.5rem dotted;
     border-color: grey;
