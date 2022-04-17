@@ -86,6 +86,7 @@ nav .navbar-nav li a {
    .bg {
        background-image: url("../images/mobile-bg.png");
        min-height: 769px;
+       min-width: 400px
    }
 }
 
