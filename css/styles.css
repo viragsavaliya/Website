@@ -84,7 +84,7 @@ nav .navbar-nav li a {
 
 @media screen and (max-width:768px) {
    .bg {
-       background-image: url("../images/mobile-helloworld1.jpg");
+       background-image: url("../images/mobile-bg.jpg");
        min-height: 769px;
    }
 }
