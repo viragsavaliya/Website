@@ -576,8 +576,13 @@ nav .navbar-nav li a {
 
 .progress-type {
     padding-left: 1vw;
-    font-size: 0.85rem;
     text-align: justify;
+}
+
+@media screen and (max-width:768px) {
+   .progress-type {
+      font-size: 0.25rem;
+   }
 }
 
 .work1 {
