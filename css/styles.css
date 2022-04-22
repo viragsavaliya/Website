@@ -160,12 +160,12 @@ nav .navbar-nav li a {
    color: #66bfbf;
 }
 
-.resume-btn, .btn-:active, .btn-.active {
+.resume-btn {
    margin-top: 1.5vw;
-   background-color: #66bfbf;
+   
 }
 
-.btn--dark:hover, .btn-:focus, .open>.dropdown-toggle.btn- {
+.btn-outline-dark:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active, .open>.dropdown-toggle.btn-outline {
     color: #fff;
     background-color: #439c9c;
 }
