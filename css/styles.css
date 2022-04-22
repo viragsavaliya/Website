@@ -165,7 +165,7 @@ nav .navbar-nav li a {
    background-color: #66bfbf;
 }
 
-.btn-outline-dark:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active, .open>.dropdown-toggle.btn-outline {
+.btn--dark:hover, .btn-:focus, .btn-:active, .btn-.active, .open>.dropdown-toggle.btn- {
     color: #fff;
     background-color: #66bfbf;
 }
