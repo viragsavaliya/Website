@@ -84,9 +84,7 @@ nav .navbar-nav li a {
 
 @media screen and (max-width:768px) {
    .bg {
-       background-image: url("../images/mobile-bg.png");
-       max-height: 769px;
-       max-width: 320px
+       display: none
    }
 }
 
