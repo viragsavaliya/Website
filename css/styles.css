@@ -105,6 +105,12 @@ nav .navbar-nav li a {
    margin-bottom: -9vw;
 }
 
+@media screen and (max-width:768px) {
+   .parent-div {
+       margin-bottom: 18vw;
+   }
+}
+
 .profile {
    overflow: hidden;
    display: block;
