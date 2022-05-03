@@ -76,6 +76,22 @@
 
    <div class="bg container-fluid img-fluid" id=bg>
    </div>
+   
+   <div class="bg-name-animation">
+      <h2 class="first-name">Virag</h2>
+      <h2 class="last-name">Savaliya</h2>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+         $(document).on('scroll', function() {
+            $('.first-name').css("left", Math.max(10 - 1 * window.scrollY) + "px");
+         })
+      </script>
+      <script type="text/javascript">
+         $(document).on('scroll', function() {
+            $('.last-name').css("right", Math.max(120 - 1 * window.scrollY) + "px");
+         })
+      </script>
+   </div>
 
    <section class="clearfix">
       <div class="profile">
