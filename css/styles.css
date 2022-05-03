@@ -90,6 +90,28 @@ nav .navbar-nav li a {
    }
 }
 
+.bg-name-animation {
+   background-color: #E0EBE7;
+   height: 200vw;
+   overflow-y: scroll;
+}
+
+@media (min-width:884px) {
+   .bg-name-animation {
+      display: none;
+   }
+}
+
+.first-name {
+   position: fixed;
+   margin: 55vw 0 0 35vw;
+}
+
+.last-name {
+   position: fixed;
+   margin: 70vw 0 0 30vw;
+}
+
 .hrdot {
     border-top: 0.5rem dotted;
     border-color: grey;
