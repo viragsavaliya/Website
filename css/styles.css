@@ -323,13 +323,41 @@ nav .navbar-nav li a {
    filter: brightness(90%);
 }
 
-.card-body {
-   background-color: #e6e6e6;
-}
-
 .card-text {
    color: #66BFBF;
    font-weight: 600;
+   margin-top: 1vw;
+}
+
+.games-img {
+   filter: brightness(0.95);
+   filter: blur(0.5);
+}
+
+.list-group-item {
+   border: 0;
+}
+
+.quiz-ans {
+   border-radius: 500px;
+   width: 12vw;
+   cursor: pointer;
+}
+
+@media screen and (max-width:786px) {
+   .quiz-ans {
+      width: 38vw;
+   }
+}
+
+.btn-outline-primary {
+    color: #66BFBF;
+    border-color: #66BFBF;
+}
+
+.btn-outline-primary:hover {
+   border-color: #66BFBF;
+   background-color: #66BFBF;
 }
 
 /* favourite */
