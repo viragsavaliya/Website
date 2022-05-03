@@ -169,7 +169,12 @@ nav .navbar-nav li a {
    top: 3.5vw;
    width: 35vw;
    padding-bottom: 20vw;
+}
 
+@media screen and (max-width:768px) {
+   .about-div {
+       padding-bottom: 30vw;
+   }
 }
 
 .about-heading {
