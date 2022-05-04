@@ -340,13 +340,13 @@ nav .navbar-nav li a {
 
 .quiz-ans {
    border-radius: 500px;
-   width: 11vw;
+   width: 12vw;
    cursor: pointer;
 }
 
 @media screen and (max-width:786px) {
    .quiz-ans {
-      width: 38vw;
+      width: 37vw;
    }
 }
 
