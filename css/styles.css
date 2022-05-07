@@ -507,8 +507,8 @@ nav .navbar-nav li a {
 }
 
 @media screen and (max-width:768px) {
-   .mobile-list-group-item {
-       width: 80.5% !important;
+   .list-group-item {
+       
    }
 }
 
@@ -521,7 +521,8 @@ nav .navbar-nav li a {
 
 @media screen and (max-width:768px) {
    .list-group-item {
-       font-size: 1rem;
+       font-size: 0.9rem;
+      width: 80.5% !important;
    }
 }
 
