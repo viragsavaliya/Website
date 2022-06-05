@@ -189,6 +189,7 @@ nav .navbar-nav li a {
    text-align: justify;
    text-justify:inter-word;
    line-height: 2rem;
+   hyphens: auto;
 }
 
 .blue-color {
@@ -254,6 +255,7 @@ nav .navbar-nav li a {
 
 .skill-div1-para {
    text-align: left;
+   hyphens: auto;
    text-align: justify;
    text-justify:inter-word;
    line-height: 2rem;
@@ -268,6 +270,7 @@ nav .navbar-nav li a {
 
 .skill-div2-para {
    text-align: right;
+   hyphens: auto;
    text-align: justify;
    text-justify:inter-word;
    line-height: 2rem;
@@ -579,11 +582,13 @@ nav .navbar-nav li a {
 
 .resume-section-para {
    text-align: left;
+   hyphens: auto;
    text-align: justify;
 }
 
 @media screen and (max-width:768px) {
    .resume-section-para {
+      hyphens: auto;
       margin-top: 7vw !important;
       margin-bottom: 7vw !important;
    }
